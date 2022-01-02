@@ -1,7 +1,7 @@
 <?php
-
     include_once("helpers/url.php");
-
+    include_once ("data/posts.php");
+    include_once ("data/categories.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt">
@@ -25,9 +25,9 @@
 
         <!-- nave -->
         <nav class= "navbar">
-            <li><a href="<?=$BASE_URL?>"> home</a></li>
-            <li><a href="#"> categorias </a></li>
-            <li><a href="#"> Sobre </a></li>
-            <li><a href="contacto.php"> contacto</a></li>
+            <li><a href="<?=$BASE_URL?>"class="nav-link"> home</a></li>
+            <li><a href="#"class="nav-link"> categorias </a></li>
+            <li><a href="#"class="nav-link"> Sobre </a></li>
+            <li><a href="contacto.php"class="nav-link"> contacto</a></li>
         </nav>
     </header>
